@@ -1,9 +1,7 @@
 const sql = require('mssql');
 
 dbSettings = {
-    user : 'felis',
-    password : 'feli1234',
-    server : 'localhost',
+    
     database : 'Northwind',
     dialect : 'mssql',
     dialectOptions : {
